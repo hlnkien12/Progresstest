@@ -5,8 +5,5 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%
-    session.invalidate(); // Hủy session hiện tại
-    response.sendRedirect("sessionCounter.jsp"); // Chuyển về trang hiển thị số session
-%>
+
 
